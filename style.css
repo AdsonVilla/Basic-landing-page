@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #641e2a 16.62%, #a3303f 85.61%);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.header-logo {
+    height: 72px;
+}
+
+.header-navigation {
+    display: flex;
+    gap: 32px;
+}
+
+.header-navigation-item {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.content {
+    border-top: .4px solid white;
+    margin-bottom: 48px;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-content-rep {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-content-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+
+.main-content-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: beige;
+}
+
+.main-content-button {
+    background-color: beige;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.main-content-button:hover {
+    background-color: bisque;
+}
+
+.main-content-image {
+    height: 430px;
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 48px;
+}
+
+.second-content-title {
+    border-top: .4px solid white;
+    padding-top: 48px;
+    font-weight: 400;
+    font-size: 25px;
+    color: beige;
+    margin-bottom: 15px;
+}
+
+.second-content-p {
+    font-weight: 300;
+    font-size: 18px;
+    color: beige;
+}
+
+.down-inf {
+    padding: 32px;
+    border-top: .4px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.down-inf-year {
+    font-weight: 700;
+    font-size: 18px;
+    color: beige;
+}
